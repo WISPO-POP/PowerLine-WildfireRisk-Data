@@ -1,5 +1,5 @@
 # PowerLine-WildfireRisk-Data
-Data files of the wildfire risk associated with power lines.
+Data files of the wildfire risk associated with power lines, created by Sofia Taylor and Line A. Roald.
 
 ## Description
 This repository contains CSV files of the wildfire ignition risk associated with power lines. The risk values are obtained by overlaying a map of electric power lines with historical wildfire risk maps, namely the Wind-enhanced Fire Potential Index (WFPI) maps from the U.S. Geological Survey. The WFPI maps are published once daily, and they indicate large fire and fire spread potential across the contiguous U.S. based on satellite imagery, fuel models, and weather forecasts.
@@ -14,7 +14,7 @@ In total, there are 6 CSV data files in this repository. The file names follow t
 # Publication
 If you would like to use this data, we kindly ask that you cite our publication:
 
-  Reference will be added soon.
+  *Reference will be added soon.*
 
 ## Abstract
 As wildfires in the United States are becoming more frequent and severe, mitigating wildfire ignition risk from power line faults is an increasingly crucial effort. Long-term ignition prevention strategies, especially converting overhead lines to underground cables, are expensive. Thus, it is important to prioritize upgrades on lines that will reduce wildfire ignition risk the most. However, since so many factors contribute to ignition risk, it is difficult to quantify the wildfire risk associated with power lines. This paper examines how various risk definitions based on historical wildfire risk maps can be used to inform transmission upgrade planning. These risk metrics are evaluated using an optimization model that determines which overhead lines should be undergrounded such that the total wildfire risk in the network is minimized. The risk assignment and upgrade selection are tested on both a synthetic network and the actual transmission lines in California.

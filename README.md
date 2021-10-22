@@ -1,5 +1,5 @@
 # PowerLine-WildfireRisk-Data
-Data files of the wildfire risk associated with power lines, created by Sofia Taylor and Line A. Roald.
+Data files of wildfire risk values defined for power lines, created by Sofia Taylor and Line A. Roald.
 
 ## Description
 This repository contains CSV files of the wildfire ignition risk associated with power lines. The risk values are obtained by overlaying a map of electric power lines with historical wildfire risk maps, namely the [Wind-enhanced Fire Potential Index](https://www.usgs.gov/ecosystems/lcsp/fire-danger-forecast/wind-enhanced-fire-potential-index-wfpi) (WFPI) maps from the U.S. Geological Survey. The WFPI maps are published once daily, and they indicate large fire and fire spread potential across the contiguous U.S. based on satellite imagery, fuel models, and weather forecasts.
@@ -8,7 +8,7 @@ Two systems of power lines are included. The first is the [RTS-GMLC](https://git
 
 Since any particular line or line segment may intersect multiple levels of wildfire ignition risk, there are multiple ways to define the risk of that line or line segment. Here, two metrics of defining risk are included. First, the maximum risk metric defines the risk of a line segment as the maximum WFPI value that intersects that line segment. The cumulative risk metric defines the risk of a line segment as the integral of all of the intersecting risk values with respect to the line length. For more detailed information about how the risk values were assigned to the power lines in these systems, please see the publication listed below.
 
-In total, there are 6 CSV data files in this repository. The file names follow the format: ```grid_metric_segmentLength_startDate_endDate.csv```
+In total, there are 9 CSV data files in this repository. The file names follow the format: ```grid_metric_segmentLength_startDate_endDate.csv```
 
 # Publication
 If you would like to use this data, please cite our publication:
